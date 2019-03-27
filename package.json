@@ -21,10 +21,11 @@
     "generate": "all-contributors generate",
     "start": "grunt",
     "test": "grunt test",
-    "postinstall": "bower install --config.interactive=false",
+    "postinstall": "bower i\stall --config.interactive=false",
     "init": "node scripts/setup.js"
   },
   "dependencies": {
+		"forever": "0.15.3",
     "async": "^1.4.2",
     "body-parser": "~1.14.1",
     "bower": "~1.6.5",
